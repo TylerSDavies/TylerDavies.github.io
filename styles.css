@@ -1,0 +1,19 @@
+﻿body {
+    font-family: "Open Sans";
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+}
+
+.headerBanner {
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/Banner.jpg");
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+}
