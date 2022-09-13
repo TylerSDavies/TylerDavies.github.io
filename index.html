@@ -3,22 +3,77 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler Davies</title>
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav></nav>
+    <nav>
+        <!--Row1-->
+        <div class="navRow">
+            <button class="navButton">Résumé</button>
+            <button class="navButton">LinkedIn</button>
+            <button class="navButton">About</button>
+        </div>
+        <!--Row2-->
+        <div class="navRow">
+            <button class="navButton">Coding</button>
+            <button class="navButton">Art</button>
+            <button class="navButton">Contact</button>
+        </div>
+    </nav>
     <header>
-        <div class="headerBanner">
-            <h1>Tyler Davies</h1>
+        <div class="headerText">
+            <div>
+                <h1>TYLER DAVIES</h1>
+                <h2>IT | Developer | Artist | Game Designer</h3>
+            </div>
         </div>
     </header>
+    <!--About-->
+    <section class="sectAbout">
+        <h3>About</h3>
+        <div class="flex">
+            <div style="flex: 1; display: flex;">
+                <img src="./images/Headshot.jpg" alt="Headshot" width="200px" height="200px" class="headshot"/>
+            </div>
+            <div style="flex: 2;">
+                <div style="margin: auto 10% auto 5%;">
+                    <p style="margin: auto auto auto 0; max-width: 1000px;">I'm a 25-year-old senior-year IT and programming student with strong aspirations in art, design, programming, and game development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Coding-->
-    <section class="sectCoding"></section>
+    <section class="sectCoding">
+        <h3>Coding</h3>
+        <div class="flex">
+            <div class="codingBanner"></div>
+            <div style="display: flex; flex: 2;">
+                <div style="display: flex; flex-direction: column;">
+                    <p style="margin: auto 5% 20px 5%">I'm a 4th-year university student on my way to receiving a Bachelor's degree in Information Technology and a certificate in Computer Programming Logic. In both school and personal studies, I've built full websites from scratch using HTML, CSS, and JavaScript. Additionally, I've prototyped text-based game engines and work with C# in Unity.</p>
+                    <h4 style="margin: 0 5%;">Languages</h4>
+                    <ul style="margin: 10px 5%;">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Art-->
-    <section class="sectArt"></section>
+    <section class="sectArt">
+        <h3>Art</h3>
+    </section>
     <!--Contact-->
-    <section class="sectContact"></section>
+    <section class="sectContact">
+        <h3>Contact</h3>
+    </section>
 </body>
 </html>
